@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1(id='title') Form trial!
+
+	form(method="post" action="/formsubmit")		
+		input(name="email" type="email")
+		input(type="submit")
+	
